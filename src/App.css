@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -35,4 +36,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+/* App.css */
+
+/* Style for the entire application container */
+.app-container {
+  background-color: #f8f9fa; /* Light gray background color */
+  padding: 20px; /* Add some padding for better visual appearance */
+}
+
+/* Style for the application title */
+.app-title {
+  color: #343a40; /* Dark color for the title */
+  margin-bottom: 20px; /* Add space below the title */
+  font-size: 36px; /* Increase font size for a more prominent title */
+  text-decoration: underline; /* Add underline to the title */
+}
+
+/* Style for each card in the application */
+.app-card {
+  margin-bottom: 20px; /* Add space between the cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  border-radius: 8px; /* Add rounded corners to the cards */
+  overflow: hidden; /* Hide overflow content */
+}
+
+/* Style for the card title */
+.card-title {
+  color: #007bff; /* Blue color for the card titles */
+  font-size: 24px; /* Adjust font size for card titles */
+  margin-bottom: 15px; /* Add space below the card titles */
+}
+
+/* Optional: Hover effect for the cards */
+.app-card:hover {
+  transform: translateY(-4px); /* Move the card up a bit on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
+footer {
+  background-color: #343a40; /* Dark background color for the footer */
+  color: #ffffff; /* White color for the text in the footer */
+  padding: 10px 0; /* Add padding to the top and bottom of the footer */
+  position: fixed; /* Fixed position to keep it at the bottom */
+  width: 100%; /* Full width */
+  bottom: 0; /* Align to the bottom of the viewport */
+}
+
+/* Additional styles for the navbar to avoid overlapping with the content */
+.navbar {
+  margin-bottom: 20px; /* Add margin to the bottom of the navbar */
 }
